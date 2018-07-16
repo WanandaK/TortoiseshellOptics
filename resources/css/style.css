@@ -259,4 +259,8 @@ p.text {
     .footer-logo {
       justify-content: center;
     }
+
+    p.text {
+      margin: 1rem;
+    }
 }
