@@ -175,9 +175,99 @@ p.text {
   }
 }
 
-/*470px*/
+/*670px*/
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 670px) {
+
+
+  .company span {
+    display: none;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .navigation-mobile {
+    display: block;
+    padding: 1rem 1rem;
+    margin-right: 1rem;
+    font-family: Helvetica;
+    font-size: 1rem;
+  }
+
+  header {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .main-banner {
+    position: relative;
+    top: 9rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .main-banner h1 {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem auto;
+  }
+
+  .products {
+    display: flex;
+    flex-direction: column;
+    padding: 3.77rem auto;
+  }
+
+  .product {
+    margin: 1.54rem auto;
+  }
+
+  .product div {
+    font-family: Helvetica;
+    font-size: .77rem
+  }
+
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    }
+
+
+    .box {
+      max-width: 100%;
+    }
+
+    .title {
+      max-width: 100%;
+    }
+
+    .box.phylosophy {
+      margin-right: 0;
+      margin-bottom: 4rem;
+    }
+
+    .box h3 {
+      text-align: center;
+    }
+
+    footer span {
+      display: none;
+    }
+
+    .footer-logo {
+      justify-content: center;
+    }
+
+    p.text {
+      margin: 1rem;
+    }
+}
+
+
+/*420px*/
+@media only screen and (max-width: 420px) {
 
 
   .company span {
